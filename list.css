@@ -1,0 +1,71 @@
+.main-container {
+  display: flex;
+  height: 100vh; /* 전체 화면 높이 */
+  width: 70%;
+}
+.sidebar {
+  width: 30%; /* 사이드바 너비 */
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}
+.sidebar h2 {
+  margin-bottom: 15px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+}
+
+.sidebar ul li {
+  margin: 10px 0;
+}
+
+.main-menu {
+  width: 70%; /* 메인 콘텐츠 너비 */
+  padding: 20px;
+  background-color: #fff;
+}
+
+.card {
+  background-color: white; /* 카드 배경색 */
+  border-radius: 8px; /* 카드 모서리 둥글게 */
+  overflow: hidden; /* 내용이 카드 밖으로 넘치지 않도록 */
+  width: 300px; /* 카드 너비 설정 */
+  box-shadow: none; /* 그림자 없음 */
+}
+
+.card-image {
+  width: 100%; /* 이미지 너비를 카드에 맞춤 */
+  height: 200px; /* 이미지 높이 설정 */
+  border-radius: 10px; /* 이미지를 약간 둥글게 */
+  object-fit: cover; /* 이미지 비율 유지 */
+}
+
+.card-content {
+  padding: 15px;
+}
+
+.card-title {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.card-rating {
+  color: gold; /* 별점 색상 */
+  margin-bottom: 10px;
+}
+
+.card-price {
+  font-size: 1.2em;
+  color: #333; /* 금액 색상 */
+  margin-bottom: 5px;
+}
+
+.card-company {
+  color: #777; /* 회사명 색상 */
+}
+
+.container {
+  display: flex;
+}
